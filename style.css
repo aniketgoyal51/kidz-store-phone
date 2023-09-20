@@ -1,0 +1,167 @@
+*{
+    font-size: 35px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.cart{
+    position: relative;
+    bottom: 15px;
+}
+.bann{
+    background-image: url("https://raw.githubusercontent.com/Kalvium-Program/kidz-world-html-boilerplate/main/assets/kw-background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #fff;
+    padding: 40px 70px;
+}
+.shop{
+    position: relative;
+    border: 0px;
+    font-size: 80px;
+}
+.hash{
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+.head{
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+.book{
+    border: 0px;
+    width: 200px;
+    margin: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.bookname{
+    font-weight: bold ;
+    font-size:21px ;
+}
+.author{
+    color: lightslategray;
+    font-size: 18px;
+}
+.price{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.add{
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.cartbtn{
+    border-radius: 5px;
+    background-color: rgb(70, 70, 197);
+    color: white;
+    border-color: white;
+    height: 40px;
+    width: 70px;
+    /* position: relative;
+    right: 25px;
+    bottom: 5px; */
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.wcart{
+    position: relative;
+    bottom: 5px;
+}
+.discover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.game{
+    border: 0px;
+    width: 300px;
+    margin: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.cartbtn2{
+    border-radius: 5px;
+    background-color: rgb(70, 70, 197);
+    color: white;
+    border-color: white;
+    height: 40px;
+    width: 70px;
+    position: relative;
+    left: 50px;
+}
+.image{
+    border-radius: 100%;
+}
+.foot{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 100px;
+}
+.right ,.left{
+    margin: 10px 100px;
+}
+.right{
+    text-align: right;
+}
+@media (max-width: 600px){
+    .discover{
+        display: block;
+        margin-top: 80px;
+    }
+    .book , .img {
+        width: 300px;
+        height: 500px;
+    }
+    .book , .game{
+        margin-left: 130px;
+    }
+    h3{
+        margin-left: 50px;
+    }
+    .logo{
+        height: 70%;
+    }
+    .bann{
+        background-repeat: no-repeat;
+        background-size: 120%;
+    }
+    .shop{
+        font-size: 30px;
+        position: relative;
+        bottom: 30px;
+    }
+    .hash{
+        position: relative;
+        bottom: 50px;
+    }
+    .cart{
+        font-size: 20px;
+    }
+    .body{
+        position: relative;
+        bottom: 100px;
+    }
+    .left , .right{
+        margin: 10px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
